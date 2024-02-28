@@ -1,3 +1,8 @@
 fun start(): String = "OK"
 
-cara buat function di kotlin pake fun namaFunction()
+fun main() {
+    println(start())
+}
+
+//cara buat function di kotlin pake fun namaFunction()
+//panggil di main nya harus ada println nya

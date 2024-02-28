@@ -1,0 +1,11 @@
+fun joinOptions(options: Collection<String>) =
+        options.joinToString(
+        prefix="[",
+        postfix="]")
+
+fun main() {
+    println(joinOptions(listOf("a","b","c")))
+}
+
+//Collection itu menerima listOf
+//nanti hasilnya [a, b, c]
